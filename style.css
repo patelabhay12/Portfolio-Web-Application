@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,200&family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,200&family=Macondo&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,200&family=Macondo&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,200&family=Macondo&family=Roboto+Slab:wght@100;400&family=Smooch&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn_sn {
+    font-size: 17px;
+    height: inherit;
+    width: 80px;
+    padding: 7px;
+    border-radius: 19px;
+    background-color: blue;
+    color: white;
+
+
+}
+
+.btn_sn1 {
+    font-size: 15px;
+    height: inherit;
+    width: 92px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 64px;
+    background-color: rgb(249, 122, 10);
+    color: black;
+    cursor: pointer;
+
+}
+
+.btn_sn1:hover {
+    background-color: white;
+    color: blue;
+}
+
+.btn_sn:hover {
+    background-color: white;
+    color: blue;
+}
+
+.sidebar {
+    background-color: rgb(38, 209, 26);
+    width: 36vh;
+    height: 101.5vh;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.sidebar nav {
+    padding: 35px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 22px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.main {
+    background-color:rgb(143, 121, 145);
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.info {
+    background-color:rgb(122, 65, 65);
+    height: 30vw;
+    width: 70vw;
+    margin: 127px auto;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid;
+    border-radius: 13px;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hello {
+    font-size: 40px;
+
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.moreabout {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.buttons {
+    margin-top: 25px;
+
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 100px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 15px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+
+}
+
+.devpic img {
+    height: 60.5vh;
+
+}
+
+.main {
+    /* background-image: url("/images/index.jpg"); */
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.contactform {
+    /* padding-left:0 56px;
+    padding-top: 244px; */
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 50px;
+    /* padding-left: 100px; */
+    border: 10px solid rgb(71, 59, 59);
+    border-radius: 25px;
+    box-sizing: border-box;
+    /* background-image: url("/images/img.jpg"); */
+    background-repeat: no-repeat;
+    height: 89vh;
+    width: 40vw;
+    background-color: blanchedalmond;
+}
+
+.text_center {
+    padding: 20px;
+    margin: 100px;
+}
+
+#cname {
+    padding: 4px;
+    margin: 15px;
+    height: 24px;
+    width: 205px;
+    /* display:contents; */
+}
+
+#clintEmail {
+    padding: 4px;
+    margin: 15px;
+    height: 24px;
+    width: 205px;
+
+}
+
+.customer {
+    padding: 4px;
+    margin: 15px;
+}
+
+.form_group {
+    margin: 15px;
+}
+
+.btn_block {
+    text-align: center;
+    margin: 15px;
+
+}
+
+.contactform h1 {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.blogContainer h1 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+}
+
+.blogItem p {
+    font-family: 'Source code pro', sans-serif;
+
+}
+.devinfo{
+    padding: 24px;
+    margin: 23px;
+}
+.devinfo h2{
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.devinfo p{
+    font-family: 'Source code pro', sans-serif;
+}
+
+.true1{
+    border: 3px solid rgb(71, 59, 59);
+    border-radius: 5px;
+    box-sizing:border-box;
+    margin: 15px;
+    /* margin: 10px; */
+    padding: 10px;
+}
+#pq{
+    text-align: center;
+}
+
+@media(max-width: 1080px){
+    *{
+        background-color: red;
+    }
+    .sidebar{
+      
+            transform: translate(-443px,0px);
+            position: absolute;
+      
+    }
+   
+}
+/* .foot{
+    background-color: cornflowerblue;
+    height:40px;
+    width: 100%;
+    color: black;
+    padding: 20px;
+
+} */
